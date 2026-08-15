@@ -1,7 +1,7 @@
 <img src="./assets/hero.svg" alt="psql console returning Mann Kumar as a result set" width="100%">
 
 <p align="center">
-  <a href="[https://www.linkedin.com/in/YOUR-LINKEDIN](https://www.linkedin.com/in/mann-kumar-2b48491b1/)">
+  <a href="https://www.linkedin.com/in/mann-kumar-2b48491b1/">
     <img src="https://img.shields.io/badge/LinkedIn-161B22?style=for-the-badge&logo=linkedin&logoColor=E6EDF3&labelColor=0D1117" alt="LinkedIn"></a>
   <a href="mailto:mannk6758@gmail.com">
     <img src="https://img.shields.io/badge/Email-161B22?style=for-the-badge&logo=gmail&logoColor=E6EDF3&labelColor=0D1117" alt="Email"></a>
