@@ -41,15 +41,39 @@ def _graphql(q):
         return json.load(r)
 
 
-def collect():
-    user = _get(f"https://api.github.com/users/{USER}")
+def _viewer_is_user():
+    """True when the token authenticates as USER, so private repos are visible."""
+    if not TOKEN:
+        return False
+    try:
+        return _get("https://api.github.com/user").get("login", "").lower() == USER.lower()
+    except Exception:
+        return False
+
+
+def _list_repos(owned):
+    base = ("https://api.github.com/user/repos?affiliation=owner&per_page=100&page="
+            if owned else f"https://api.github.com/users/{USER}/repos?per_page=100&page=")
     repos, page = [], 1
     while True:
-        b = _get(f"https://api.github.com/users/{USER}/repos?per_page=100&page={page}")
-        repos += b
-        if len(b) < 100:
+        batch = _get(base + str(page))
+        repos += batch
+        if len(batch) < 100:
             break
         page += 1
+    return repos
+
+
+def collect():
+    user = _get(f"https://api.github.com/users/{USER}")
+    owned = _viewer_is_user()
+    repos = _list_repos(owned)
+
+    public = sum(1 for r in repos if not r.get("private"))
+    private = sum(1 for r in repos if r.get("private"))
+    if not owned:                       # token can't see private repos at all
+        public = user.get("public_repos", public)
+        private = 0
 
     langs = {}
     for r in repos:
@@ -71,7 +95,11 @@ def collect():
     except Exception as e:
         print("calendar unavailable:", e)
 
-    return {"days": days, "repos": user.get("public_repos", len(repos)),
+    return {"days": days,
+            "repos": public + private,
+            "public": public,
+            "private": private,
+            "sees_private": owned,
             "stars": sum(r.get("stargazers_count", 0) for r in repos),
             "followers": user.get("followers", 0),
             "langs": sorted(langs.items(), key=lambda kv: -kv[1])}
@@ -165,7 +193,9 @@ def render(s):
     kpis = [("total contributions", d["total"], "past 12 months"),
             ("active days", d["active"], f'of {len(d["days"])}'),
             ("longest streak", d["streak"], "consecutive days"),
-            ("public repos", d["repos"], f'{d["stars"]} stars earned')]
+            ("total repos", d["repos"],
+             f'{d["public"]} public \u00b7 {d["private"]} private'
+             if d.get("private") else f'{d["stars"]} stars earned')]
     ty, th = 66, 96
     tw = (W - 56 - 3 * 12) / 4
     for i, (label, val, sub) in enumerate(kpis):
