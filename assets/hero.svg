@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 372" width="880" height="372" role="img" aria-label="psql console returning Mann Kumar as a result set">
+<defs>
+  <clipPath id="type1">
+    <rect x="100" y="69.0" width="0" height="22">
+      <animate attributeName="width" dur="16.0s" repeatCount="indefinite"
+        calcMode="linear" keyTimes="0;0.03125;0.1625;1"
+        values="0;0;316;316"/>
+    </rect>
+  </clipPath>
+  <clipPath id="type2">
+    <rect x="100" y="95.0" width="0" height="22">
+      <animate attributeName="width" dur="16.0s" repeatCount="indefinite"
+        calcMode="linear" keyTimes="0;0.18125;0.3125;1"
+        values="0;0;388;388"/>
+    </rect>
+  </clipPath>
+</defs>
+  <rect x="0.5" y="0.5" width="879" height="371" rx="10"
+    fill="#0D1117" stroke="#30363D"/>
+  <path d="M0.5 10.5a10 10 0 0 1 10-10h859a10 10 0 0 1 10 10V46H0.5Z" fill="#161B22"/>
+  <line x1="0.5" y1="46" x2="879.5" y2="46" stroke="#30363D"/>
+  <circle cx="26" cy="23.5" r="5.5" fill="#F85149" opacity=".85"/>
+  <circle cx="46" cy="23.5" r="5.5" fill="#E3B341" opacity=".85"/>
+  <circle cx="66" cy="23.5" r="5.5" fill="#7EE787" opacity=".85"/>
+  <text x="440.0" y="28" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#7D8590"
+    text-anchor="middle">mann@github &#8212; psql</text>
+  <text x="28" y="84" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0" fill="#7D8590">mann=#</text>
+  <g clip-path="url(#type1)"><text x="100" y="84" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0"><tspan fill="#E3B341">SELECT</tspan><tspan fill="#E6EDF3"> name, role, focus, shipping</tspan></text></g>
+  <text x="28" y="110" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0" fill="#7D8590">mann-#</text>
+  <g clip-path="url(#type2)"><text x="100" y="110" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0"><tspan fill="#E3B341">FROM</tspan><tspan fill="#E6EDF3"> mann_kumar </tspan><tspan fill="#E3B341">WHERE</tspan><tspan fill="#E6EDF3"> status </tspan><tspan fill="#7D8590">=</tspan><tspan fill="#7EE787"> 'building'</tspan><tspan fill="#7D8590">;</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.3375;0.35875;1" values="0;0;1;1"/><animate attributeName="transform" attributeType="XML" type="translate" dur="16.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.2 .8 .2 1;0 0 1 1" keyTimes="0;0.3375;0.35875;1" values="0 6;0 6;0 0;0 0"/>
+    <text x="42" y="150" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#7D8590"
+      letter-spacing="1.2">field</text>
+    <text x="159" y="150" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#7D8590"
+      letter-spacing="1.2">value</text>
+    <line x1="42" y1="164" x2="838" y2="164" stroke="#30363D"/>
+    <line x1="141" y1="136" x2="141" y2="286" stroke="#30363D"/>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.375;0.39625;1" values="0;0;1;1"/><animate attributeName="transform" attributeType="XML" type="translate" dur="16.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.2 .8 .2 1;0 0 1 1" keyTimes="0;0.375;0.39625;1" values="0 6;0 6;0 0;0 0"/>
+    <text x="42" y="190" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0" fill="#7D8590">name</text>
+    <text x="159" y="190" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0" fill="#56D4DD">Mann Kumar</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.39625;0.4175;1" values="0;0;1;1"/><animate attributeName="transform" attributeType="XML" type="translate" dur="16.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.2 .8 .2 1;0 0 1 1" keyTimes="0;0.39625;0.4175;1" values="0 6;0 6;0 0;0 0"/>
+    <text x="42" y="216" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0" fill="#7D8590">role</text>
+    <text x="159" y="216" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0" fill="#56D4DD">Analyst @ Lizm Technologies</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.4175;0.43875;1" values="0;0;1;1"/><animate attributeName="transform" attributeType="XML" type="translate" dur="16.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.2 .8 .2 1;0 0 1 1" keyTimes="0;0.4175;0.43875;1" values="0 6;0 6;0 0;0 0"/>
+    <text x="42" y="242" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0" fill="#7D8590">focus</text>
+    <text x="159" y="242" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0" fill="#56D4DD">AI · Data Analytics · Full-Stack</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.43875;0.46;1" values="0;0;1;1"/><animate attributeName="transform" attributeType="XML" type="translate" dur="16.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.2 .8 .2 1;0 0 1 1" keyTimes="0;0.43875;0.46;1" values="0 6;0 6;0 0;0 0"/>
+    <text x="42" y="268" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0" fill="#7D8590">shipping</text>
+    <text x="159" y="268" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0" fill="#56D4DD">AI-powered products &amp; dashboards</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.48125;0.5025;1" values="0;0;1;1"/><animate attributeName="transform" attributeType="XML" type="translate" dur="16.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;.2 .8 .2 1;0 0 1 1" keyTimes="0;0.48125;0.5025;1" values="0 6;0 6;0 0;0 0"/>
+    <line x1="42" y1="286" x2="838" y2="286" stroke="#30363D"/>
+    <text x="42" y="310" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13"
+      fill="#7D8590">(4 rows)</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.525;0.54625;1" values="0;0;1;1"/>
+    <text x="28" y="344" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.0" fill="#7D8590">mann=#</text>
+    <rect x="100" y="332" width="9" height="16"
+      fill="#E3B341"><animate attributeName="opacity" dur="1.06s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5" values="1;0"/></rect>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 468" width="880" height="468" role="img" aria-label="Selected projects with stack and description">
+  <rect x="0.5" y="0.5" width="879" height="467" rx="10" fill="#0D1117" stroke="#30363D"/>
+  <path d="M0.5 10.5a10 10 0 0 1 10-10h859a10 10 0 0 1 10 10V46H0.5Z" fill="#161B22"/>
+  <line x1="0.5" y1="46" x2="879.5" y2="46" stroke="#30363D"/>
+  <circle cx="26" cy="23.5" r="5.5" fill="#F85149" opacity=".85"/>
+  <circle cx="46" cy="23.5" r="5.5" fill="#E3B341" opacity=".85"/>
+  <circle cx="66" cy="23.5" r="5.5" fill="#7EE787" opacity=".85"/>
+  <text x="96.0" y="28.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#E6EDF3" text-anchor="start" font-weight="400">selected work</text>
+  <text x="854.0" y="28.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#7D8590" text-anchor="end" font-weight="400">5 projects</text>
+  <rect x="28" y="66" width="3" height="34" rx="1.5" fill="#E3B341"/>
+  <text x="44.0" y="86.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#E6EDF3" text-anchor="start" font-weight="600">PicDream</text>
+  <text x="852.0" y="86.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#7D8590" text-anchor="end" font-weight="400">full-stack AI SaaS</text>
+  <text x="44.0" y="106.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#7D8590" text-anchor="start" font-weight="400">Text-and-photo prompts blended into high-fidelity images, on a credit system with live payments.</text>
+  <text x="44.0" y="125.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#56D4DD" text-anchor="start" font-weight="400">Next.js 15 · Gemini 2.0 · Prisma · PostgreSQL · Cashfree · Framer Motion</text>
+  <line x1="28" y1="140" x2="852" y2="140" stroke="#21262D"/>
+  <rect x="28" y="140" width="3" height="34" rx="1.5" fill="#E3B341"/>
+  <text x="44.0" y="160.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#E6EDF3" text-anchor="start" font-weight="600">Ecommerce Sales Dashboard</text>
+  <text x="852.0" y="160.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#7D8590" text-anchor="end" font-weight="400">business intelligence</text>
+  <text x="44.0" y="180.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#7D8590" text-anchor="start" font-weight="400">Sales, profit and payment-mode analysis over real transactions, with drill-down exploration.</text>
+  <text x="44.0" y="199.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#56D4DD" text-anchor="start" font-weight="400">Power BI · Power Query · DAX · multi-dataset modeling</text>
+  <line x1="28" y1="214" x2="852" y2="214" stroke="#21262D"/>
+  <rect x="28" y="214" width="3" height="34" rx="1.5" fill="#E3B341"/>
+  <text x="44.0" y="234.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#E6EDF3" text-anchor="start" font-weight="600">Online Banking Analysis</text>
+  <text x="852.0" y="234.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#7D8590" text-anchor="end" font-weight="400">distributed data pipeline</text>
+  <text x="44.0" y="254.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#7D8590" text-anchor="start" font-weight="400">Loan, customer and transaction datasets ingested to Hive via Sqoop, analysed at scale.</text>
+  <text x="44.0" y="273.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#56D4DD" text-anchor="start" font-weight="400">Apache Spark · PySpark · Hive · HDFS · Sqoop · MySQL</text>
+  <line x1="28" y1="288" x2="852" y2="288" stroke="#21262D"/>
+  <rect x="28" y="288" width="3" height="34" rx="1.5" fill="#E3B341"/>
+  <text x="44.0" y="308.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#E6EDF3" text-anchor="start" font-weight="600">Scheduled API Data Logger</text>
+  <text x="852.0" y="308.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#7D8590" text-anchor="end" font-weight="400">automation / CI-CD</text>
+  <text x="44.0" y="328.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#7D8590" text-anchor="start" font-weight="400">Cron-driven workflow that calls an API, writes structured logs and commits them back.</text>
+  <text x="44.0" y="347.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#56D4DD" text-anchor="start" font-weight="400">Python · GitHub Actions · REST APIs · GitHub Secrets</text>
+  <line x1="28" y1="362" x2="852" y2="362" stroke="#21262D"/>
+  <rect x="28" y="362" width="3" height="34" rx="1.5" fill="#E3B341"/>
+  <text x="44.0" y="382.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#E6EDF3" text-anchor="start" font-weight="600">Apthire</text>
+  <text x="852.0" y="382.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#7D8590" text-anchor="end" font-weight="400">company project</text>
+  <text x="44.0" y="402.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#7D8590" text-anchor="start" font-weight="400">Recruitment platform with AI-conducted interviews, resume parsing and identity verification.</text>
+  <text x="44.0" y="421.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#56D4DD" text-anchor="start" font-weight="400">Next.js · PostgreSQL · LLM APIs · identity verification</text>
+</svg>
