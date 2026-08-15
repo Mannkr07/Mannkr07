@@ -33,5 +33,5 @@
 <br>
 
 <p align="center">
-  <sub><code>mann=#</code> &nbsp;open to interesting problems in AI, data and product engineering.</sub>
+  <sub><code></code> &nbsp;open to interesting problems in AI, data and product engineering.</sub>
 </p>
